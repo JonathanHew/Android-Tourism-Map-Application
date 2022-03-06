@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/alabaster"
+    >
+
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/green_flag"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Irish Tourism Guide"
+        android:layout_below="@id/flag"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:id="@+id/home_title"
+
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_text"
+        android:layout_below="@id/home_title"
+        android:text="Please select one of the following options"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        />
+
+
+
+    <Button
+            android:id="@+id/search_map_button"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="Search Map"
+            android:layout_below="@+id/flag"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+        />
+
+        <Button
+            android:id="@+id/view_all_button"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="View All"
+            android:layout_below="@id/search_map_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/add_attraction_button"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="Add Attraction"
+            android:layout_below="@+id/view_all_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+
+    </RelativeLayout>

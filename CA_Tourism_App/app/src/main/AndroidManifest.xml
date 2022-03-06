@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ca_tourism_app">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CA_Tourism_App">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBKFotj4w1xMwYO_0xFP3DLXc17W_utAwc" />
+
+        <activity
+            android:name=".NewActivity"
+            android:label="Attraction Information"
+            android:exported="true"
+            android:parentActivityName=".View_All_Activity" />
+
+        <activity
+            android:name=".Update_Attraction_Activity"
+            android:label="Update Attraction"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Add_Attraction_Activity"
+            android:label="Add Attraction"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".View_All_Activity"
+            android:label="View All"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Search_By_Map_Activity"
+            android:label="Search Map"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

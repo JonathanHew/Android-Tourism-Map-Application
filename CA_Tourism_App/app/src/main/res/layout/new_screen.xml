@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_placeholder"
+        android:layout_marginTop="5dp"
+        android:id="@+id/attraction_image"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/attraction_image"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/longi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/lat"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longi"
+        android:layout_marginTop="10dp">
+
+
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/longi"
+            android:layout_marginTop="10dp"
+            android:text="Delete"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/longi"
+            android:text="Update"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
