@@ -22,6 +22,9 @@ Please click on the video image below to view the demo of this project.
 
 
 # Instructions
+  - Download this repository 
+  - Open the project on Android Studio 
+  - Run the app on an emulator or an Android phone
   
 
 # How it works
