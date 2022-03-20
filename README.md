@@ -44,14 +44,14 @@ The Search_By_Map_Activity uses a an Adnroid feature which displays a google map
 # Design
 
 ### Class Diagram
-![An image](Diagrams/ClassDiagrams.png)
+![An image](Diagrams/ClassDiagram.PNG.png)
 
 ### ERD
 ![An image](Diagrams/ERD.png)
 
 ### Use Case examples
-![An image](Diagrams/UseCase.png)
-![An image](Diagrams/UseCase2.0.png)
+![An image](Diagrams/UseCase.PNG.png)
+![An image](Diagrams/UseCase2.0.PNG.png)
 
 ### Low Fidelity Prototypes
 ![An image](Diagrams/screenflow1.png)
