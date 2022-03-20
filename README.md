@@ -41,8 +41,22 @@ All other classes in this porject act as the Controller. These bridge the gap be
 ## Google Maps and Location Services
 The Search_By_Map_Activity uses a an Adnroid feature which displays a google map.
 
-# Low Fidelity Prototype 
+# Design
 
+### Class Diagram
+![An image](Diagrams/ClassDiagrams.png)
+
+### ERD
+![An image](Diagrams/ERD.png)
+
+### Use Case examples
+![An image](Diagrams/UseCase.png)
+![An image](Diagrams/UseCase2.0.png)
+
+### Low Fidelity Prototypes
+![An image](Diagrams/screenflow1.png)
+![An image](Diagrams/screenflow2.png)
+![An image](Diagrams/screenflow3.png)
 
 # What I am most proud of in the assignment
 
